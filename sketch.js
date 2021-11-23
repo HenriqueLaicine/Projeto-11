@@ -13,7 +13,7 @@ function preload(){
 function setup(){
   createCanvas(400,400);
 
-  runner = createSprite(200,100,50,50);
+  runner = createSprite(200,350,50,50);
   runner.addAnimation("running",runningImg);
 
   runner.scale = 0.07;
